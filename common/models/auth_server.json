@@ -1,0 +1,35 @@
+{
+  "name": "AUTH_SERVER",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "USERNAME": {
+      "type": "string",
+      "required": true,
+      "id": 1
+    },
+    "PASSWORD": {
+      "type": "string",
+      "required": true
+    },
+    "LAST_ACCESS": {
+      "type": "date",
+      "required": true
+    },
+    "DATE_CREATED": {
+      "type": "date",
+      "required": true
+    },
+    "DATE_MODIFIED": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

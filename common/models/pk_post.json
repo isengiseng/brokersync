@@ -1,0 +1,94 @@
+{
+  "name": "PK_POST",
+  "base": "PersistedModel",
+  "options": {
+    "validateUpsert": false
+  },
+  "http": {
+    "path": "/sync"
+  },
+  "properties": {
+    "KODEH2H": {
+      "type": "string",
+      "required": true
+    },
+    "USERNAME": {
+      "type": "string",
+      "required": true
+    },
+
+    "PASSWORD": {
+      "type": "string",
+      "required": true
+    },
+    "CAB": {
+      "type": "string",
+      "required": true
+    },
+    "PK": {
+      "type": "string",
+      "required": true,
+      "id": true
+    },
+    "NOREK": {
+      "type": "string",
+      "required": true
+    },
+    "NAMA": {
+      "type": "string",
+      "required": true
+    },
+    "LAHIR": {
+      "type": "string",
+      "required": true
+    },
+    "BUKA": {
+      "type": "string",
+      "required": true
+    },
+    "TEMPO": {
+      "type": "string",
+      "required": true
+    },
+    "PLAN": {
+      "type": "string",
+      "required": true
+    },
+    "AMOUNT": {
+      "type": "number",
+      "required": true
+    },
+    "ID_NO": {
+      "type": "string",
+      "required": true
+    },
+    "KTP": {
+      "type": "string",
+      "required": true
+    },
+    "RATE": {
+      "type": "number",
+      "required": true
+    },
+    "SEX": {
+      "type": "string",
+      "required": true
+    },
+    "RATE_ASURANSI": {
+      "type": "string",
+      "required": true
+    },
+    "DATE_CREATED": {
+      "type": "date",
+      "required": true
+    },
+    "DATE_MODIFIED": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

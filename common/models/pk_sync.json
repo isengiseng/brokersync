@@ -1,0 +1,11 @@
+{
+  "name": "PK_SYNC",
+  "base": "Model",
+  "idInjection": false,
+  "properties": {},
+  "options": {
+    "promisify": true
+  },
+  "acls": [],
+  "methods": []
+}

@@ -1,0 +1,43 @@
+{
+  "name": "AUTH_API",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "http": {
+    "path": "/auth_api"
+  },
+  "properties": {
+    "KODEH2H": {
+      "type": "string",
+      "required": true,
+      "id": 1
+    },
+    "USERNAME": {
+      "type": "string",
+      "required": true,
+      "id": 2
+    },
+    "PASSWORD": {
+      "type": "string",
+      "required": true
+    },
+    "LAST_ACCESS": {
+      "type": "date",
+      "required": true
+    },
+    "DATE_CREATED": {
+      "type": "date",
+      "required": true
+    },
+    "DATE_MODIFIED": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

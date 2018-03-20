@@ -1,0 +1,60 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "PK_SYNC": {
+    "name": "PK_SYNC",
+    "connector": "rest",
+    "operations": [{
+      "template": {
+        "method": "POST",
+        "url": "http://175.106.14.66:3000/api/auth_api/getall",
+        "body": "{auth:Object}"
+      },
+      "functions": {
+        "getAll": ["auth"]
+      }
+    }]
+  },
+  "CEK_KOMUNIKASI": {
+    "host": "localhost",
+    "port": 1433,
+    "url": "",
+    "database": "BROKER",
+    "password": "zenhuw",
+    "name": "CEK_KOMUNIKASI",
+    "user": "zenhuw",
+    "connector": "mssql"
+  },
+  "PK_POST": {
+    "host": "localhost",
+    "port": 1433,
+    "url": "",
+    "database": "BROKER",
+    "password": "zenhuw",
+    "name": "PK_POST",
+    "user": "zenhuw",
+    "connector": "mssql"
+  },
+  "AUTH_API": {
+    "host": "localhost",
+    "port": 1433,
+    "url": "",
+    "database": "BROKER",
+    "password": "zenhuw",
+    "name": "AUTH_API",
+    "user": "zenhuw",
+    "connector": "mssql"
+  },
+  "AUTH_SERVER": {
+    "host": "localhost",
+    "port": 1433,
+    "url": "",
+    "database": "BROKER",
+    "password": "zenhuw",
+    "name": "AUTH_SERVER",
+    "user": "zenhuw",
+    "connector": "mssql"
+  }
+}
